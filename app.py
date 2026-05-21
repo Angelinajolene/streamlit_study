@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 st.title("*STUDENT DETAILS*")
-st.header("Registration Form")
+st.header("**Registration Form**")
 select_box= st.sidebar.selectbox('Kindly provide all information',('Basic Information','Contact Details','Academic Details','Check'))
 if select_box == "Basic Information":
     st.progress(25)
